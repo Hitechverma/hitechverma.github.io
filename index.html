@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Up and Running with Bootstrap</title>
+    <title>Vigya ITI</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/main.js"></script>
     <!-- <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css"> -->
     <!-- HTML5 shim for IE backwards compatibility -->
         <!--[if lt IE 9]>
@@ -23,9 +24,9 @@
           <li class="active"><a href="#iti" data-toggle="tab">Home</a> </li>
           <li><a href="#about" data-toggle="tab">About College</a></li>
           <li><a href="#trade" data-toggle="tab">Trades</a></li>
-          <li><a href="#">Infrastructure</a></li>
-          <li><a href="#">Administrative Staff</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#map" data-toggle="tab">Infrastructure</a></li>
+          <li><a href="#" data-toggle="tab">Administrative Staff</a></li>
+          <li><a href="#" data-toggle="tab">Contacts</a></li>
         </ul>
         </div>
     </nav>
@@ -104,6 +105,13 @@
                 <li class="list-group-item"><span class="badge">(1+1)</span>Computer Opreator & Programming Assistant </li>
               </ol>
             </p>
+      </article>
+      <article class="tab-pane" id="map">
+            <h3>Location</h3>
+            <div id="map-canvas">
+              
+            </div>
+            
       </article>
 
       <script src="js/jquery-2.1.0.min.js"></script>
