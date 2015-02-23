@@ -8,7 +8,6 @@
     /*background-color: #CCC;*/
   }
 
-
-
-
-@media screen and (max-device-width:768px){
+.tab-content{
+	margin-top: -20px;
+}
