@@ -8,12 +8,13 @@
     /*background-color: #CCC;*/
   }
 
-.navbar{
-	position: relative;
+
+body{
+	padding-top: 70px;
 }
 
-nav {
-    /*position: fixed !important;*/
+.navbar	{
+	/*height: 100px;*/
 }
 
 .tab-content{
