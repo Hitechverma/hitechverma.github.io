@@ -8,15 +8,27 @@
 	/*position: relative;*/
 	/*width: 25%*/
 }
+.details{
+	padding-left: 10px;
+}
 
 
-.profile_pic{
+.profile{
 	/*width: 100%;*/
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 5px 5px 5px 5px;
+	border: 2px dashed blue;
+}
+.picture{
+	margin-left: 10px;
 }
 .side_main{
 	/*width: 100%;*/
 	/*border: 1px dashed blue;*/
 }
+.collection .collection-item{
+	line-height: 3rem;
+	font-size: 15px;
+}
+
