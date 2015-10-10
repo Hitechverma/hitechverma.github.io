@@ -7,5 +7,10 @@ $stateProvider
 		templateUrl: "partials/homepage.html",
 		controller: "HomeController",
 	})
+	.state('project', {
+		url: "/project",
+		templateUrl: "partials/projects.html",
+		controller: "HomeController",
+	})
 	$urlRouterProvider.otherwise('/');
 })
