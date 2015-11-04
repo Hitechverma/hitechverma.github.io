@@ -12,5 +12,10 @@ $stateProvider
 		templateUrl: "partials/projects.html",
 		controller: "HomeController",
 	})
+	.state('resume', {
+		url: "/resume",
+		templateUrl: "partials/resume.html",
+		controller: "HomeController",
+	})
 	$urlRouterProvider.otherwise('/');
 })
