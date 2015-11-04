@@ -12,6 +12,9 @@
 	padding-left: 10px;
 }
 
+.card .card-title{
+	color: black;
+}
 
 .profile{
 	/*width: 100%;*/
