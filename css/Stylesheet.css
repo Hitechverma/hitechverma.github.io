@@ -1,30 +1,41 @@
 .sbar{
-	position: relative;
-	border-right: 1px dotted black;
+	position: fixed;
+	width: 22%;
+	/*border-right: 1px dotted black;*/
 	margin-top: 2%;
+	top: 0;
+	left: 20;
+	bottom: 0;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 	/*width: 25%;*/
 }
-.mainheader{
-	/*position: relative;*/
-	/*width: 25%*/
+.homePage{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+#content{
+	margin-top: 2%;
 }
 .details{
 	padding-left: 10px;
 }
 
+.forMe_head{
+	border-bottom: 1px solid black;
+}
+.info{
+	font-size: 20px;
+}
 .card .card-title{
 	color: black;
 }
 
-.side-nav{
-	width: 20%;
-}
 .profile{
 	/*width: 100%;*/
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 10px;
 	padding: 5px 5px 5px 5px;
+	text-align: center;
 	/*border: 2px dashed blue;*/
 }
 .picture{
@@ -37,5 +48,13 @@
 .collection .collection-item{
 	line-height: 3rem;
 	font-size: 15px;
+	text-align: center;
 }
 
+.collection.with-header .collection-item {
+    padding-left: 0px;
+}
+
+.iframee{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
