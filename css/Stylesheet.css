@@ -51,6 +51,15 @@
 	text-align: center;
 }
 
+/*.material-icons {
+	font-size: 
+}*/
+.achive_details{
+	padding-left: 3%;
+	font-size: 20px;
+	line-height: 2;
+}
+
 .collection.with-header .collection-item {
     padding-left: 0px;
 }
