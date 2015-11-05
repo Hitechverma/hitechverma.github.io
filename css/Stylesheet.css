@@ -45,6 +45,14 @@
 	/*width: 100%;*/
 	/*border: 1px dashed blue;*/
 }
+
+.contacts_main ul{
+	list-style-type: none;
+	display: inline-block;
+}
+.contacts_main li{
+	float: left;
+}
 .collection .collection-item{
 	line-height: 3rem;
 	font-size: 15px;
