@@ -59,6 +59,10 @@
 	text-align: center;
 }
 
+.myModals li{
+	list-style-type: circle;
+}
+
 /*.material-icons {
 	font-size: 
 }*/
