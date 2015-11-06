@@ -10,17 +10,6 @@
 	/*width: 25%;*/
 }
 
-@media only screen and (max-width: 1100px){
-	.sbar{
-	position: relative;
-	width: 100%;
-	margin-top: 2%;
-	top: 0;
-	left: 20;
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-}
-}
-
 .homePage{
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
@@ -64,11 +53,12 @@ h3 > span{
 
 .contacts_main ul{
 	list-style-type: none;
-	padding-left: 30%;
+	padding-left: 25%;
 	display: inline-block;
 }
 .contacts_main li{
 	float: left;
+	padding-left: 10px;
 }
 .collection .collection-item{
 	line-height: 3rem;
@@ -85,7 +75,7 @@ h3 > span{
 }*/
 .achive_details{
 	padding-left: 3%;
-	font-size: 20px;
+	font-size: 17px;
 	line-height: 2;
 }
 
@@ -95,4 +85,29 @@ h3 > span{
 
 .iframee{
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+
+@media only screen and (max-width: 800px ){
+	.modal.bottom-sheet{
+		max-height:60%
+	}
+}
+
+@media only screen and (max-width: 540px ){
+	.modal.bottom-sheet{
+		max-height:80%
+	}
+}
+
+@media only screen and (max-width: 1100px){
+	.sbar{
+	position: relative;
+	width: 100%;
+	margin-top: 2%;
+	top: 0;
+	left: 20;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
 }
