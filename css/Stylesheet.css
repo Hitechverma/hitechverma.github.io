@@ -43,8 +43,8 @@ h3 > span{
 	text-align: center;
 	/*border: 2px dashed blue;*/
 }
-.picture{
-	margin-left: 10px;
+.picture img{
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.16),0 5px 10px 0 rgba(0,0,0,0.12);
 }
 .side_main{
 	/*width: 100%;*/
