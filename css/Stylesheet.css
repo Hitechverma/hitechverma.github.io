@@ -42,6 +42,10 @@
 	color: black;
 }
 
+h3 > span{
+	font-size: 12px;
+}
+
 .profile{
 	/*width: 100%;*/
 	margin-top: 30px;
@@ -60,6 +64,7 @@
 
 .contacts_main ul{
 	list-style-type: none;
+	padding-left: 30%;
 	display: inline-block;
 }
 .contacts_main li{
